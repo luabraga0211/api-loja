@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,14 @@
     "fastify": "^4.28.1",
     "postgres": "^3.4.4"
   },
-  "description": ""
+  "description": "Para rodar o projeto, siga os passos abaixo:",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luabraga0211/api-loja.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luabraga0211/api-loja/issues"
+  },
+  "homepage": "https://github.com/luabraga0211/api-loja#readme"
 }
